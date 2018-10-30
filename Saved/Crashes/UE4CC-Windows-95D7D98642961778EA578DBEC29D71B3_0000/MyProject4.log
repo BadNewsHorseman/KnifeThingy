@@ -1,0 +1,984 @@
+﻿Log file open, 10/26/18 12:37:22
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyProject4
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.101220
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin gameDNAinstaller
+LogPluginManager: Mounting plugin UniversalMobileAds
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.443s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 7 (Service Pack 1), CPU:         Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: L:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.26-10.37.28:250][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.26-10.37.28:250][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.26-10.37.28:350][  0]LogHAL: Display: Platform has ~ 16 GB [17128501248 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.26-10.37.28:350][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.26-10.37.28:350][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.26-10.37.28:370][  0]LogInit: Computer: STEVEN-PC
+[2018.10.26-10.37.28:370][  0]LogInit: User: Steven
+[2018.10.26-10.37.28:370][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.26-10.37.28:370][  0]LogInit: High frequency timer resolution =3.515634 MHz
+[2018.10.26-10.37.28:370][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.10.26-10.37.28:371][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.26-10.37.28:371][  0]LogMemory: Process Physical Memory: 101.87 MB used, 101.87 MB peak
+[2018.10.26-10.37.28:371][  0]LogMemory: Process Virtual Memory: 91.74 MB used, 91.74 MB peak
+[2018.10.26-10.37.28:371][  0]LogMemory: Physical Memory: 6715.67 MB used,  9619.34 MB free, 16335.01 MB total
+[2018.10.26-10.37.28:371][  0]LogMemory: Virtual Memory: 480.63 MB used,  9619.34 MB free, 8388608.00 MB total
+[2018.10.26-10.37.30:569][  0]LogInit: Using OS detected language (en-US).
+[2018.10.26-10.37.30:569][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.26-10.37.30:570][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.26-10.37.32:693][  0]LogStreaming: Display: Took  2.123s to InitEngineTextLocalization.
+[2018.10.26-10.37.32:694][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.10.26-10.37.32:694][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.10.26-10.37.32:694][  0]LogInit: Setting process to DPI aware
+[2018.10.26-10.37.33:521][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.26-10.37.33:521][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.26-10.37.38:824][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.10.26-10.37.38:824][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.26-10.37.38:912][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.10.26-10.37.38:912][  0]LogD3D11RHI:       8077/0/7911 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.26-10.37.38:912][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.26-10.37.38:920][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.26-10.37.38:920][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.26-10.37.38:920][  0]LogWindows: EnumDisplayDevices:
+[2018.10.26-10.37.38:920][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.10.26-10.37.38:920][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.10.26-10.37.38:920][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.26-10.37.38:920][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.10.26-10.37.38:920][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.10.26-10.37.38:920][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.10.26-10.37.38:920][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.10.26-10.37.38:921][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.10.26-10.37.38:921][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.10.26-10.37.38:921][  0]LogD3D11RHI:   Driver Version: 390.77 (internal:23.21.13.9077, unified:390.77)
+[2018.10.26-10.37.38:921][  0]LogD3D11RHI:      Driver Date: 1-23-2018
+[2018.10.26-10.37.38:921][  0]LogRHI: Texture pool is 5654 MB (70% of 8077 MB)
+[2018.10.26-10.37.38:942][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.26-10.37.39:007][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.26-10.37.39:009][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../coded projects/KnifeThingy/Intermediate/Shaders/WorkingDirectory/12424/).
+[2018.10.26-10.37.39:009][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Steven/AppData/Local/Temp/UnrealShaderWorkingDir/778CC3BE4307DFAEF9548E97B16FDAFC/'.
+[2018.10.26-10.37.40:314][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.26-10.37.40:349][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.26-10.37.40:387][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.26-10.37.40:530][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.26-10.37.40:670][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.26-10.37.40:748][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.26-10.37.40:873][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.26-10.37.40:984][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.26-10.37.41:001][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:114][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.26-10.37.41:197][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.26-10.37.41:722][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.26-10.37.41:722][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.26-10.37.41:775][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.26-10.37.41:775][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.26-10.37.41:874][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.26-10.37.41:969][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.26-10.37.42:101][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.26-10.37.42:210][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.26-10.37.42:325][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.26-10.37.42:325][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.26-10.37.44:926][  0]LogXGEController: Cleaning working directory: C:/Users/Steven/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.26-10.37.44:937][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2018.10.26-10.37.49:719][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.26-10.37.50:016][  0]LogDerivedDataCache: Loaded boot cache 0.30s 71MB C:/Users/Steven/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.26-10.37.50:017][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Steven/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.26-10.37.50:017][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../coded projects/KnifeThingy/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.26-10.37.50:017][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.26-10.37.50:017][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../coded projects/KnifeThingy/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.26-10.37.50:017][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.26-10.37.50:247][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.26-10.37.50:259][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Steven/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.26-10.37.50:259][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.26-10.37.50:259][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.26-10.37.50:284][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.26-10.37.50:361][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.26-10.37.50:439][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.26-10.37.53:156][  0]LogAssetRegistry: FAssetRegistry took 0.0308 seconds to start up
+[2018.10.26-10.37.55:224][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.26-10.37.57:922][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.26-10.37.58:544][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.26-10.37.58:557][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.26-10.37.58:605][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.26-10.37.58:605][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.26-10.37.59:146][  0]LogNetVersion: MyProject4 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3245095822)
+[2018.10.26-10.38.04:030][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.094040 seconds
+[2018.10.26-10.38.04:036][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.26-10.38.04:036][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.26-10.38.04:036][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.26-10.38.46:826][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.26-10.38.46:949][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.26-10.38.50:776][  0]SourceControl: Source control is disabled
+[2018.10.26-10.38.50:777][  0]SourceControl: Source control is disabled
+[2018.10.26-10.38.51:133][  0]SourceControl: Source control is disabled
+[2018.10.26-10.38.51:444][  0]SourceControl: Source control is disabled
+[2018.10.26-10.38.55:912][  0]LogGameDNAinstaller: Display: gameDNA installer module started
+[2018.10.26-10.38.58:305][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.26-10.38.59:290][  0]LogOcInput: OculusInput pre-init called
+[2018.10.26-10.39.00:405][  0]LogEngine: Initializing Engine...
+[2018.10.26-10.39.00:468][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2018.10.26-10.39.00:500][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.26-10.39.00:500][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.26-10.39.00:500][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.26-10.39.00:500][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.26-10.39.02:348][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.26-10.39.03:017][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.26-10.39.03:044][  0]LogInit: XAudio2 using 'Speakers (Sennheiser Main Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.26-10.39.03:087][  0]LogInit: FAudioDevice initialized.
+[2018.10.26-10.39.03:088][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.26-10.39.03:171][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/Steven/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.26-10.39.03:171][  0]LogInit: Texture streaming: Enabled
+[2018.10.26-10.39.03:748][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.26-10.39.04:000][  0]LogInit: Transaction tracking system initialized
+[2018.10.26-10.39.05:033][  0]BlueprintLog: New page: Editor Load
+[2018.10.26-10.39.10:203][  0]LocalizationService: Localization service is disabled
+[2018.10.26-10.39.17:044][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.26-10.39.17:044][  0]LogCook: Display: Mobile HDR setting 0
+[2018.10.26-10.39.17:044][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.26-10.39.17:044][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.26-10.39.17:044][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.26-10.39.17:045][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.26-10.39.17:045][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.26-10.39.17:053][  0]LogFileCache: Scanning file cache for directory 'L:/coded projects/KnifeThingy/Content/' took 0.03s
+[2018.10.26-10.39.24:423][  0]SourceControl: Source control is disabled
+[2018.10.26-10.39.24:423][  0]Cmd: MAP LOAD FILE="../../../../../../coded projects/KnifeThingy/Content/MAIN.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.26-10.39.24:475][  0]LightingResults: New page: Lighting Build
+[2018.10.26-10.39.24:571][  0]MapCheck: New page: Map Check
+[2018.10.26-10.39.24:571][  0]LightingResults: New page: Lighting Build
+[2018.10.26-10.39.28:898][  0]LogAIModule: Creating AISystem for world MAIN
+[2018.10.26-10.39.29:002][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.26-10.39.29:048][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.26-10.39.29:138][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 90.209ms to complete.
+[2018.10.26-10.39.29:138][  0]LogFileHelpers: Loading map 'MAIN' took 4.715
+[2018.10.26-10.39.30:447][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-10.39.30:455][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-10.39.30:465][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-10.39.30:473][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-10.39.35:647][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.10.26-10.39.36:258][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject4
+[2018.10.26-10.39.36:258][  0]LogTemp: CWD: L:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.26-10.39.36:258][  0]LogTemp: Initial Dir: L:\Program Files\Epic Games\UE_4.20
+[2018.10.26-10.39.36:258][  0]LogTemp: Env CWD: L:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.10.26-10.39.36:258][  0]LogTemp: BranchPath = STEVEN-PC/L/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = STEVEN-PC/L/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.10.26-10.39.36:258][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Steven\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.10.26-10.39.36:258][  0]LogCollectionManager: Loaded 0 collections in 0.001409 seconds
+[2018.10.26-10.39.36:503][  0]LogFileCache: Scanning file cache for directory 'L:/coded projects/KnifeThingy/Saved/Collections/' took 0.01s
+[2018.10.26-10.39.36:503][  0]LogFileCache: Scanning file cache for directory 'L:/coded projects/KnifeThingy/Content/Developers/Steven/Collections/' took 0.01s
+[2018.10.26-10.39.36:503][  0]LogFileCache: Scanning file cache for directory 'L:/coded projects/KnifeThingy/Content/Collections/' took 0.00s
+[2018.10.26-10.39.36:503][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.26-10.39.36:519][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2577 classes and 611 folders.
+[2018.10.26-10.39.36:731][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.26-10.39.40:678][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.26-10.39.40:744][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for ../../../../../../coded projects/KnifeThingy/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2018.10.26-10.39.40:844][  0]LogSlate: Took 0.012102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.26-10.39.40:873][  0]LogSlate: Took 0.026966 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.26-10.39.41:060][  0]LogRenderer: Reallocating scene render targets to support 1616x1284 Format 10 NumSamples 1 (Frame:1).
+[2018.10.26-10.39.42:059][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.26-10.39.42:060][  0]LogLoad: (Engine Initialization) Total time: 210.18 seconds
+[2018.10.26-10.39.42:060][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.26-10.39.42:217][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.26-10.39.42:539][  1]LogFileCache: Retrieving MD5 hashes for directory 'L:/coded projects/KnifeThingy/Content/' took 0.43s
+[2018.10.26-10.39.42:593][  2]LogAssetRegistry: Asset discovery search completed in 109.4564 seconds
+[2018.10.26-10.39.42:595][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.26-10.39.42:595][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2018.10.26-10.41.57:781][406]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.26-10.41.57:801][406]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.10.26-10.41.57:928][406]LogSlate: Took 0.024134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.26-10.52.28:630][958]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.26-10.52.28:902][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-10.52.29:008][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.26-10.52.29:838][958]PIE: New page: PIE session: MAIN (Oct 26, 2018, 2:52:29 PM)
+[2018.10.26-10.52.29:848][958]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2018.10.26-10.52.30:106][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.257594s)
+[2018.10.26-10.52.30:108][958]LogAIModule: Creating AISystem for world MAIN
+[2018.10.26-10.52.30:151][958]LogPlayLevel: PIE: World Init took: (0.044727s)
+[2018.10.26-10.52.30:164][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.315708s)
+[2018.10.26-10.52.30:399][958]LogInit: XAudio2 using 'Speakers (Sennheiser Main Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.26-10.52.30:404][958]LogInit: FAudioDevice initialized.
+[2018.10.26-10.52.30:507][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-10.52.30:851][958]LogLoad: Game class is 'GameModeBase'
+[2018.10.26-10.52.31:100][958]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2018.10.26-12.52.31
+[2018.10.26-10.52.31:141][958]LogWorld: Bringing up level for play took: 0.041399
+[2018.10.26-10.52.32:324][958]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0425 seconds. Added 10 classes and 0 folders.
+[2018.10.26-10.52.34:065][958]PIE: Play in editor start time for /Game/UEDPIE_0_MAIN 5.332
+[2018.10.26-10.52.34:114][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-10.52.39:469][377]LogSlate: Window 'MyProject4 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.26-10.52.39:671][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-10.52.39:961][377]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.26-10.52.39:961][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-10.52.40:543][378]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2018.10.26-10.59.45:797][399]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.26-10.59.45:810][399]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-10.59.45:811][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.26-10.59.45:811][399]PIE: New page: PIE session: MAIN (Oct 26, 2018, 2:59:45 PM)
+[2018.10.26-10.59.45:811][399]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2018.10.26-10.59.45:812][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001116s)
+[2018.10.26-10.59.45:813][399]LogAIModule: Creating AISystem for world MAIN
+[2018.10.26-10.59.45:813][399]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2018.10.26-10.59.45:813][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.001995s)
+[2018.10.26-10.59.45:848][399]LogInit: XAudio2 using 'Speakers (Sennheiser Main Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.26-10.59.45:852][399]LogInit: FAudioDevice initialized.
+[2018.10.26-10.59.45:864][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-10.59.45:908][399]LogLoad: Game class is 'GameModeBase'
+[2018.10.26-10.59.45:909][399]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2018.10.26-12.59.45
+[2018.10.26-10.59.45:909][399]LogWorld: Bringing up level for play took: 0.000413
+[2018.10.26-10.59.45:930][399]PIE: Play in editor start time for /Game/UEDPIE_0_MAIN -0.807
+[2018.10.26-10.59.45:944][399]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-10.59.53:857][310]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-10.59.53:857][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-10.59.53:870][310]LogSlate: Window 'MyProject4 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.26-10.59.53:897][310]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.26-10.59.53:898][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-10.59.53:944][311]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.10.26-11.00.03:537][215]LogSlate: Took 0.049038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.26-11.00.03:619][215]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Cartoony_UI_Anims/UI/UI_MainMenu.UI_MainMenu
+[2018.10.26-11.00.07:089][215]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0019 seconds. Added 116 classes and 0 folders.
+[2018.10.26-11.00.13:423][215]LogSlate: Took 0.037837 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.26-11.00.25:131][668]LogSlate: Window 'UI_MainMenu' being destroyed
+[2018.10.26-11.00.28:768][762]LogSlate: Took 0.024522 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.26-11.01.13:190][730]BlueprintLog: New page: Compile UI_MainMenu
+[2018.10.26-11.03.20:630][725]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.26-11.03.20:645][725]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-11.03.20:646][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.26-11.03.20:646][725]PIE: New page: PIE session: MAIN (Oct 26, 2018, 3:03:20 PM)
+[2018.10.26-11.03.20:646][725]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2018.10.26-11.03.20:647][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001146s)
+[2018.10.26-11.03.20:647][725]LogAIModule: Creating AISystem for world MAIN
+[2018.10.26-11.03.20:648][725]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2018.10.26-11.03.20:648][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.001885s)
+[2018.10.26-11.03.20:813][725]LogInit: XAudio2 using 'Speakers (Sennheiser Main Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.26-11.03.20:823][725]LogInit: FAudioDevice initialized.
+[2018.10.26-11.03.20:861][725]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-11.03.20:922][725]LogLoad: Game class is 'GameModeBase'
+[2018.10.26-11.03.20:922][725]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2018.10.26-13.03.20
+[2018.10.26-11.03.20:923][725]LogWorld: Bringing up level for play took: 0.000505
+[2018.10.26-11.03.20:948][725]PIE: Play in editor start time for /Game/UEDPIE_0_MAIN 0.208
+[2018.10.26-11.03.20:948][725]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-11.03.22:024][843]LogNet: Browse: /Game/NewMap
+[2018.10.26-11.03.22:031][843]LogLoad: LoadMap: /Game/NewMap
+[2018.10.26-11.03.27:566][843]LogAIModule: Creating AISystem for world NewMap
+[2018.10.26-11.03.27:567][843]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.26-11.03.27:913][843]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.10.26-13.03.27
+[2018.10.26-11.03.27:936][843]LogWorld: Bringing up level for play took: 0.332492
+[2018.10.26-11.03.28:030][843]LogScript: Warning: Accessed None trying to read property GameModeRef
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0EB2
+[2018.10.26-11.03.28:030][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property GameModeRef". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set canspawnwheel
+[2018.10.26-11.03.28:064][843]LogScript: Warning: Accessed None trying to read property GameModeRef
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:00F1
+[2018.10.26-11.03.28:065][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property GameModeRef". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:065][843]LogScript: Warning: Accessed None
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0106
+[2018.10.26-11.03.28:065][843]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:075][843]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'colors' of length 4 in '/Game/BP_Wheel.BP_Wheel_C'!
+[2018.10.26-11.03.28:075][843]LogScript: Warning: Accessed None trying to read property GameModeRef
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:00F1
+[2018.10.26-11.03.28:075][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property GameModeRef". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:075][843]LogScript: Warning: Accessed None
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0106
+[2018.10.26-11.03.28:075][843]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:075][843]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'colors' of length 4 in '/Game/BP_Wheel.BP_Wheel_C'!
+[2018.10.26-11.03.28:076][843]LogScript: Warning: Accessed None trying to read property GameModeRef
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:00F1
+[2018.10.26-11.03.28:076][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property GameModeRef". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:076][843]LogScript: Warning: Accessed None
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0106
+[2018.10.26-11.03.28:076][843]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:076][843]LogScript: Warning: Accessed None trying to read property GameModeRef
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0349
+[2018.10.26-11.03.28:077][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property GameModeRef". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:077][843]LogScript: Warning: Accessed None
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:035E
+[2018.10.26-11.03.28:077][843]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:077][843]LogScript: Warning: Accessed None attempting to assign variable on an object
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0373
+[2018.10.26-11.03.28:077][843]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:077][843]LogScript: Warning: Accessed None trying to read property HUDREF
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0106
+[2018.10.26-11.03.28:078][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:078][843]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'colors' of length 4 in '/Game/BP_Wheel.BP_Wheel_C'!
+[2018.10.26-11.03.28:078][843]LogScript: Warning: Accessed None trying to read property HUDREF
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0106
+[2018.10.26-11.03.28:078][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:079][843]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'colors' of length 4 in '/Game/BP_Wheel.BP_Wheel_C'!
+[2018.10.26-11.03.28:079][843]LogScript: Warning: Accessed None trying to read property HUDREF
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0106
+[2018.10.26-11.03.28:079][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:079][843]LogScript: Warning: Accessed None trying to read property HUDREF
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:035E
+[2018.10.26-11.03.28:079][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:080][843]LogScript: Warning: Accessed None attempting to assign variable on an object
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0373
+[2018.10.26-11.03.28:080][843]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:080][843]LogScript: Warning: Accessed None trying to read property HUDREF
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:0106
+[2018.10.26-11.03.28:080][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:080][843]LogScript: Warning: Accessed None trying to read property HUDREF
+	BP_Wheel_C /Game/UEDPIE_0_NewMap.NewMap:PersistentLevel.BP_Wheel_2
+	Function /Game/BP_Wheel.BP_Wheel_C:ExecuteUbergraph_BP_Wheel:035E
+[2018.10.26-11.03.28:081][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:081][843]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:081][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:082][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:082][843]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:082][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:083][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:083][843]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.03.28:083][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.03.28:083][843]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'colors' of length 4 in '/Game/BP_Wheel.BP_Wheel_C'!
+[2018.10.26-11.03.28:123][843]LogLoad: Took 6.091498 seconds to LoadMap(/Game/NewMap)
+[2018.10.26-11.03.35:465][675]LogSlate: Window 'MyProject4 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.26-11.03.35:468][675]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-11.03.35:555][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.26-11.03.35:555][675]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-11.03.35:912][676]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2018.10.26-11.03.53:954][805]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Wheel.BP_Wheel
+[2018.10.26-11.03.55:781][806]LogRenderer: Reallocating scene render targets to support 1732x1284 Format 10 NumSamples 1 (Frame:1).
+[2018.10.26-11.04.12:552][584]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_GameMode.BP_GameMode
+[2018.10.26-11.10.07:162][571]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI_HUD.UI_HUD
+[2018.10.26-11.10.58:070][704]BlueprintLog: New page: Compile UI_HUD
+[2018.10.26-11.11.13:554][428]BlueprintLog: New page: Compile BP_GameMode
+[2018.10.26-11.11.36:914][466]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.26-11.11.36:947][466]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-11.11.36:948][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.26-11.11.36:948][466]PIE: New page: PIE session: MAIN (Oct 26, 2018, 3:11:36 PM)
+[2018.10.26-11.11.36:948][466]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2018.10.26-11.11.36:949][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001221s)
+[2018.10.26-11.11.36:950][466]LogAIModule: Creating AISystem for world MAIN
+[2018.10.26-11.11.36:950][466]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2018.10.26-11.11.36:950][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.001997s)
+[2018.10.26-11.11.37:001][466]LogInit: XAudio2 using 'Speakers (Sennheiser Main Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.26-11.11.37:004][466]LogInit: FAudioDevice initialized.
+[2018.10.26-11.11.37:016][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-11.11.37:083][466]LogLoad: Game class is 'GameModeBase'
+[2018.10.26-11.11.37:084][466]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2018.10.26-13.11.37
+[2018.10.26-11.11.37:084][466]LogWorld: Bringing up level for play took: 0.000384
+[2018.10.26-11.11.37:105][466]PIE: Play in editor start time for /Game/UEDPIE_0_MAIN 0.36
+[2018.10.26-11.11.37:106][466]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-11.11.38:397][584]LogNet: Browse: /Game/NewMap
+[2018.10.26-11.11.38:398][584]LogLoad: LoadMap: /Game/NewMap
+[2018.10.26-11.11.41:866][584]LogAIModule: Creating AISystem for world NewMap
+[2018.10.26-11.11.41:866][584]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.26-11.11.41:870][584]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.10.26-13.11.41
+[2018.10.26-11.11.41:870][584]LogWorld: Bringing up level for play took: 0.003085
+[2018.10.26-11.11.41:871][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property GameModeRef". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set canspawnwheel
+[2018.10.26-11.11.41:871][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property GameModeRef". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:871][584]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:871][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property GameModeRef". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:871][584]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:871][584]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:871][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:871][584]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'colors' of length 4 in '/Game/BP_Wheel.BP_Wheel_C'!
+[2018.10.26-11.11.41:872][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:872][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:872][584]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:872][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:872][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:872][584]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:872][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:872][584]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'colors' of length 4 in '/Game/BP_Wheel.BP_Wheel_C'!
+[2018.10.26-11.11.41:872][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:872][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:872][584]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:873][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:873][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:873][584]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:873][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:873][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:873][584]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:873][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:873][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:873][584]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:873][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Addtoballs
+[2018.10.26-11.11.41:874][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUDREF". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:874][584]PIE: Error: Blueprint Runtime Error: "Accessed None attempting to assign variable on an object". Blueprint:  BP_Wheel Function:  Execute Ubergraph BP Wheel Graph:  EventGraph Node:  Set colortohit
+[2018.10.26-11.11.41:875][584]LogLoad: Took 3.476627 seconds to LoadMap(/Game/NewMap)
+[2018.10.26-11.11.41:881][584]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.11.41:881][584]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.11.42:243][584]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.11.42:273][584]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.13.51:609][584]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.13.51:611][584]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.02:301][584]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.14.02:301][584]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.14.02:304][584]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.02:307][584]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.02:343][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:367][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:388][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:410][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:431][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:452][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:474][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:494][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:514][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:534][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:554][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:575][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:595][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:616][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:637][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:659][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:682][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:704][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:727][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:754][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:776][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:798][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:819][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:843][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:864][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:887][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:908][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:931][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:951][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:970][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.02:990][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:010][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:030][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:051][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:071][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:091][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:113][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:133][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:153][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:174][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:193][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:213][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:240][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:262][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:283][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:304][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:324][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:346][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:356][584]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.03:358][584]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.03:379][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:407][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:428][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:450][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:473][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:494][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:516][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:537][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:557][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:577][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:597][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:617][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:638][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:659][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:679][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:699][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:720][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:741][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:763][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:784][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:804][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:825][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:845][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:865][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:885][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:905][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.03:920][584]LogSlate: Attempting to pop clipping stack of size 0 due to a breakpoint.
+[2018.10.26-11.14.03:989][585]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.14.03:989][585]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.14.03:993][585]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.03:995][585]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.04:429][585]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.04:432][585]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.04:772][585]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.14.04:772][585]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.14.04:775][585]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.04:777][585]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.04:814][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.04:837][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.04:858][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.04:879][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.04:899][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.04:921][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.04:942][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.04:962][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.04:984][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:004][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:025][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:048][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:069][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:091][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:113][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:135][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:155][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:175][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:195][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:215][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:236][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:256][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:276][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:297][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:319][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:340][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:361][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:382][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:403][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:423][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:444][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:464][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:485][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:505][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:525][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:546][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:566][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:586][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:606][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:626][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:646][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:667][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:688][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:696][585]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.05:698][585]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.05:720][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:747][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:768][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:790][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:814][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:836][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:858][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:879][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:900][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:921][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:941][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:962][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.05:984][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:005][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:026][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:046][585]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:061][585]LogSlate: Attempting to pop clipping stack of size 0 due to a breakpoint.
+[2018.10.26-11.14.06:069][586]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.14.06:069][586]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.14.06:085][586]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:088][586]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:167][586]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:169][586]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:268][586]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.14.06:269][586]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.14.06:272][586]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:274][586]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:310][586]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:335][586]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:358][586]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:380][586]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:389][586]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:391][586]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:413][586]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:440][586]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:461][586]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:483][586]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:503][586]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:509][586]LogSlate: Attempting to pop clipping stack of size 0 due to a breakpoint.
+[2018.10.26-11.14.06:517][587]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.14.06:517][587]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.14.06:521][587]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:523][587]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:583][587]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:586][587]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:695][587]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.14.06:695][587]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.14.06:698][587]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:701][587]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:736][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:759][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:780][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:812][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:822][587]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:825][587]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.06:848][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:875][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:896][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:917][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:937][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:958][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:979][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.06:999][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:019][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:039][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:059][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:078][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:099][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:120][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:140][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:160][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:180][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:200][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:220][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:240][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:260][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:279][587]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.07:285][587]LogSlate: Attempting to pop clipping stack of size 0 due to a breakpoint.
+[2018.10.26-11.14.07:292][588]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.14.07:292][588]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.14.07:342][588]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.07:345][588]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.08:736][588]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.08:738][588]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.08:871][588]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.14.08:871][588]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.14.08:874][588]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.08:877][588]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.08:913][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.08:935][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.08:955][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.08:975][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.08:994][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:014][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:036][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:058][588]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.09:060][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:061][588]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.09:099][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:121][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:143][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:163][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:182][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:203][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:223][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:243][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:263][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:283][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:303][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:323][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:343][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:366][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:391][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:412][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:431][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:451][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:471][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:491][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2018.10.26-11.14.09:495][588]LogSlate: Attempting to pop clipping stack of size 0 due to a breakpoint.
+[2018.10.26-11.14.09:502][589]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_FunctionEntry', from offset 0
+[2018.10.26-11.14.09:502][589]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI_HUD.UI_HUD_C:GetBrush_0
+
+[2018.10.26-11.14.09:507][589]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.09:509][589]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.13:125][589]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.13:127][589]LogScriptCore: Warning: Cannot call UnrealScript (BrushBinding /Engine/Transient.UnrealEdEngine_0:GameInstance_3.UI_HUD_C_0.WidgetTree_0.color.BrushBinding_0 - Function /Script/UMG.BrushBinding:GetValue) while stopped at a breakpoint.
+[2018.10.26-11.14.21:506][289]LogSlate: Window 'MyProject4 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.26-11.14.21:508][289]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-11.14.21:539][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.26-11.14.21:539][289]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-11.14.21:620][290]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.26-11.15.18:517][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.26-11.15.18:588][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MAIN' took 0.029
+[2018.10.26-11.15.18:643][ 60]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cartoony_UI_Anims/UI/UI_MainMenu] ([1] browsable assets)...
+[2018.10.26-11.15.18:643][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cartoony_UI_Anims/UI/UI_MainMenu]
+[2018.10.26-11.15.19:509][ 60]LogSavePackage: Moving '../../../../../../coded projects/KnifeThingy/Saved/UI_MainMenu_Auto14AF77C2E414284862B6F349003CCFE67.tmp' to '../../../../../../coded projects/KnifeThingy/Saved/Autosaves/Game/Cartoony_UI_Anims/UI/UI_MainMenu_Auto1.uasset'
+[2018.10.26-11.15.19:572][ 60]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BP_GameMode] ([1] browsable assets)...
+[2018.10.26-11.15.19:572][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_GameMode]
+[2018.10.26-11.15.19:572][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_GameMode" FILE="../../../../../../coded projects/KnifeThingy/Saved/Autosaves/Game/BP_GameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.26-11.15.19:640][ 60]LogSavePackage: Moving '../../../../../../coded projects/KnifeThingy/Saved/BP_GameMode_Auto17F666EA74DE90BCA8C4EBA8E06DE6D74.tmp' to '../../../../../../coded projects/KnifeThingy/Saved/Autosaves/Game/BP_GameMode_Auto1.uasset'
+[2018.10.26-11.15.19:654][ 60]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI_HUD] ([1] browsable assets)...
+[2018.10.26-11.15.19:654][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI_HUD]
+[2018.10.26-11.15.19:654][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI_HUD" FILE="../../../../../../coded projects/KnifeThingy/Saved/Autosaves/Game/UI_HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.26-11.15.19:734][ 60]LogSavePackage: Moving '../../../../../../coded projects/KnifeThingy/Saved/UI_HUD_Auto15DAE856A4942863B720C0BBC81CD0DC4.tmp' to '../../../../../../coded projects/KnifeThingy/Saved/Autosaves/Game/UI_HUD_Auto1.uasset'
+[2018.10.26-11.15.19:735][ 60]LogFileHelpers: Auto-saving content packages took 1.146
+[2018.10.26-11.16.47:950][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.26-11.17.16:651][500]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.10.26-11.17.16:676][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-11.17.16:676][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.26-11.17.16:676][500]PIE: New page: PIE session: MAIN (Oct 26, 2018, 3:17:16 PM)
+[2018.10.26-11.17.16:676][500]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MAIN
+[2018.10.26-11.17.16:678][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001185s)
+[2018.10.26-11.17.16:678][500]LogAIModule: Creating AISystem for world MAIN
+[2018.10.26-11.17.16:678][500]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2018.10.26-11.17.16:678][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAIN.MAIN to /Game/UEDPIE_0_MAIN.MAIN (0.001986s)
+[2018.10.26-11.17.16:726][500]LogInit: XAudio2 using 'Speakers (Sennheiser Main Audio)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.10.26-11.17.16:730][500]LogInit: FAudioDevice initialized.
+[2018.10.26-11.17.16:742][500]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.26-11.17.16:793][500]LogLoad: Game class is 'GameModeBase'
+[2018.10.26-11.17.16:794][500]LogWorld: Bringing World /Game/UEDPIE_0_MAIN.MAIN up for play (max tick rate 0) at 2018.10.26-13.17.16
+[2018.10.26-11.17.16:794][500]LogWorld: Bringing up level for play took: 0.000431
+[2018.10.26-11.17.16:820][500]PIE: Play in editor start time for /Game/UEDPIE_0_MAIN 0.071
+[2018.10.26-11.17.16:821][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAIN.MAIN:PersistentLevel' has LevelScriptBlueprint '/Game/MAIN.MAIN:PersistentLevel.MAIN' with GeneratedClass '/Game/MAIN.MAIN_C' with ClassGeneratedBy '/Game/MAIN.MAIN:PersistentLevel.MAIN'
+[2018.10.26-11.17.18:043][609]LogNet: Browse: /Game/NewMap
+[2018.10.26-11.17.18:044][609]LogLoad: LoadMap: /Game/NewMap
+[2018.10.26-11.17.19:126][609]LogAIModule: Creating AISystem for world NewMap
+[2018.10.26-11.17.19:126][609]LogLoad: Game class is 'BP_GameMode_C'
+[2018.10.26-11.17.19:130][609]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.10.26-13.17.19
+[2018.10.26-11.17.19:130][609]LogWorld: Bringing up level for play took: 0.003377
+[2018.10.26-11.17.19:141][609]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2018.10.26-11.17.19:141][609]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BP_Wheel.BP_Wheel_C:ReceiveBeginPlay
+
+[2018.10.26-11.17.21:878][609]LogUObjectBase: Warning: Object is not registered
+[2018.10.26-11.17.21:893][609]LogOutputDevice: Warning: 
+
+Script Stack:
+BP_Wheel_C.ExecuteUbergraph_BP_Wheel
+BP_Wheel_C.ReceiveBeginPlay
+
+[2018.10.26-11.17.24:473][609]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.575 s
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: 
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: Stack: 
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fee31d71e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fee2f10c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fee2f2b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fecee811db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fecee9060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fece2fda3a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fed153ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fed14ff337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fedf818204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fedfa5e933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fedf87281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fedf848190 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007fedf83b073 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007feeac9d007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.26-11.17.24:474][609]LogOutputDevice: Error: [Callstack] 0x000007feeac90270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007feeac9f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007feeac8c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000000007705c3c1 USER32.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000000007705c60a USER32.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007feeaca05a9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fedf86f2b2 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fedf86dd08 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fedf811c8a UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fecee65824 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fecee9b698 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fecf33751a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fee3da9903 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fee3db5b3a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fee3d81b86 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fee3d6204d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fee3d81b86 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fee3b56467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fee3d81123 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fee0297fe3 UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fee025e82c UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.26-11.17.24:475][609]LogOutputDevice: Error: [Callstack] 0x000007fee026a702 UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000007fee15c44d9 UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000007fee0983d01 UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000007fee15a877e UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000007fee14b0e6d UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000007fee1442843 UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000007fee14e6bdd UE4Editor-Engine.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000007fecea16f02 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000007fecf30f646 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000000013f1d5cbd UE4Editor.exe!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000000013f1e5b3c UE4Editor.exe!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000000013f1e5bba UE4Editor.exe!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000000013f1f3dac UE4Editor.exe!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000000013f1f5aaa UE4Editor.exe!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x00000000771559cd kernel32.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: [Callstack] 0x000000007728a561 ntdll.dll!UnknownFunction []
+[2018.10.26-11.17.24:476][609]LogOutputDevice: Error: 
+[2018.10.26-11.17.24:500][609]LogStats:                SubmitErrorReport -  0.016 s
